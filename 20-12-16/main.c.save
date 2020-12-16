@@ -1,0 +1,33 @@
+////#include <stdio.h>
+////#include <stdlib.h>
+////
+////int main()
+////{
+////    printf("Hello world!\n");
+////    return 0;
+////}
+//#include<stdio.h>
+//typedef struct BiTNodel
+//{
+//    char data;
+//    BiTNodel *lchild,*rchild;
+//}BiTnode,*BiTree;
+//Stu
+//int main()
+//{
+//
+//    return 0;
+//}
+#include<stdio.h>
+#include<stdlib.h>
+void del(int*p)
+{
+    free(p)
+}
+int main()
+{
+    int* p=(int*)malloc(sizeof(int));
+    *p=100;
+    del(p)
+    return 0;
+}
